@@ -1,0 +1,8 @@
+
+x= 3-0
+y=67
+
+add = x+y
+
+print (add)
+
