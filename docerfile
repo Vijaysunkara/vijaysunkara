@@ -1,0 +1,12 @@
+# Step 1: Use the official Python image from the Docker Hub as the base image
+FROM python:3.9-slim
+
+# Step 2: Set the working directory in the container
+WORKDIR /app
+
+# Step 3: Copy the Python script from your local machine to the container
+COPY app.py .
+
+# Step 4: Command to run the Python script
+CMD ["python", "app.py"]
+
